@@ -1,0 +1,3 @@
+[submodule "external/ADS1231"]
+	path = external/ADS1231
+	url = https://github.com/ThomasRyanDavies/ADS1231.git

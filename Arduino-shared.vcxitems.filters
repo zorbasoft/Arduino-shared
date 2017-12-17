@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Text Include="$(MSBuildThisFileDirectory)readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ADS1232.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)external\ADS1231\ADS1231.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ADS1232.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)EEPROMAnything.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)external\ADS1231\ADS1231.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)README.md" />
+    <None Include="$(MSBuildThisFileDirectory)LICENSE" />
+    <None Include="$(MSBuildThisFileDirectory)external\ADS1231\examples\readAndDisplayValue\readAndDisplayValue.ino" />
+    <None Include="$(MSBuildThisFileDirectory).gitignore" />
+    <None Include="$(MSBuildThisFileDirectory).gitmodules" />
+  </ItemGroup>
+</Project>

@@ -1,6 +1,8 @@
 ![ups](https://avatars3.githubusercontent.com/u/29077972?s=400&u=d90b24ba74ee96a9c7aafd61fe0fa0beed2fa3a3&v=4 "zorbasoft")
 
 # Arduino-shared
+
+[![Build Status](https://travis-ci.org/zorbasoft/Arduino-shared.svg?branch=master)](https://travis-ci.org/zorbasoft/Arduino-shared)
 > artuino `visualmicro` visualstudio atmega avr ESP32
 
 **My favorite code for Arduino base environment**
